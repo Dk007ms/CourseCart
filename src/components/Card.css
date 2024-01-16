@@ -1,0 +1,21 @@
+.like{
+    background-color: #fff;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0.5rem;
+    bottom: 11rem;
+    @media screen and (max-width:376px) {
+        position: absolute;
+        bottom: 13.5rem;
+    }
+
+    @media screen and (max-width:326px) {
+        position: absolute;
+        bottom: 16.4rem;
+    }
+}

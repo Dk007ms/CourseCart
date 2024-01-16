@@ -8,6 +8,6 @@ import 'react-toastify/dist/ReactToastify.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <ToastContainer stacked className="w-6" />
+    <ToastContainer stacked className=" w-4" />
   </React.StrictMode>,
 )
